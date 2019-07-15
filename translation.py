@@ -32,7 +32,7 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.me/SpEcHlDe/599'>{}</a>
 Expires on: {}"""
-    HELP_USER = """Click the below link to know how to use this bot\n\n(https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)"""
+    HELP_USER = """Click the below link to know how to use this bot\n\nhttps://www.youtube.com/embed/a0BbypulAjU?vq=hd1440"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link\n\n[Click here to know how to use this bot](https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail"
