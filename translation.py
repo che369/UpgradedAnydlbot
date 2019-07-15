@@ -5,32 +5,9 @@ class Translation(object):
     # UPGRADE_TEXT = "no one gonna help you 🤣🤣🤣🤣"
     UPGRADE_TEXT = """Bot Plans👇
 
-📌FREE USERS
-____
-Limit : 1.45GB
-Daily Upload limit : 500MB
-Price : 🇮🇳0.00₹ [ONE MONTH]
+This bot is free & always will be !
 
-🤖Features:-
-●Upload file from Direct link.📤
-●Get direct Download link.🔗
-
-📌PLAN 1
-____
-Limit : 1.45GB
-Daily Upload limit : Unlimited
-Price : 🇮🇳59₹ [ONE MONTH]
-Payment : Paytm💶
-
-🤖Features:-
-●Upload file from Direct link.📤
-●Get direct Download link.🔗
-●Convert to Telegram File to Audio.🔊
-●Convert to Telegram File to Video📹
-●Rename any Telegram File with Custom Thumbnail.📝
-___________________
-
-Contact : @Macaloo"""
+"""
     FORMAT_SELECTION = "Got the file. \n now sent me a image if you want to set as custom thumbnail \n and then click the needed format from the below buttons."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
