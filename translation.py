@@ -1,5 +1,12 @@
 class Translation(object):
-    START_TEXT = """Hi! please send me any vaild file url to generate direct links."""
+    START_TEXT = """
+👉 Forward Any Files To This Bot And REPLY TO THAT MEDIA by sending /getlink command to get High Speed Direct Download Link !
+👉 Do Not Send Multiple Files At Same Time,When You Get The Direct Link Then Send Another File If You Want.
+👉 If You Did'nt Get The Direct Link After 1 Hour,Send /getlink Command To The File Again.
+👉 Subscribe Our Channel For  Bot Updates @filestolink
+👉 [Click here to know how to use this bot](https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)
+
+© Source Code :[SpEcHiDe](https://github.com/SpEcHiDe/AnyDLBot) """
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     # UPGRADE_TEXT = "no one gonna help you 🤣🤣🤣🤣"
