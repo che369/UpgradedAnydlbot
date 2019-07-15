@@ -6,7 +6,8 @@ class Translation(object):
 👉 Subscribe Our Channel For  Bot Updates @filestolink
 👉 [Click here to know how to use this bot](https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)
 
-© Source Code :[SpEcHiDe](https://github.com/SpEcHiDe/AnyDLBot) """
+© Source Code : [SpEcHiDe](https://github.com/SpEcHiDe/AnyDLBot) 
+"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     # UPGRADE_TEXT = "no one gonna help you 🤣🤣🤣🤣"
