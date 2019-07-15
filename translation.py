@@ -32,19 +32,8 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.me/SpEcHlDe/599'>{}</a>
 Expires on: {}"""
-    HELP_USER = """There are multiple things I can do:
-⚫️ Upload as file from any HTTP link, with custom thumbnail support
-⚫️ Convert To Streamable Video, any Telegram file
-⚫️ Convert To Telegram Audio, the media sent as Telegram Documents
-⚫️ ReName Telegram files, with custom thumbnail support
-⚫️ Get High Speed Direct Download Link of any Telegram file
-⚫️ Generate Custom Thumbnail by sending two photos in a Media Album
-⚫️ Trim large videos, and Take Screenshots of Telegram media files.
-⚫️ Extract compressed Telegram media
-⚫️ Get a Telegram sticker as a Telegram downloadable media
---------
-Send /me to know current plan details"""
-    REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
+    HELP_USER = """[Click here to know how to use this bot](https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)"""
+    REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link\n\n[Click here to know how to use this bot](https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail"
     AFTER_GET_DL_LINK = "Direct Link generated 👇 \n \n  {} \n \n <i>Generated link will expire in {} days.</i> \n\nSubscribe our channel for bot updates @filestolink"
