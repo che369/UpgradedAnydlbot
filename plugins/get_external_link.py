@@ -89,7 +89,6 @@ def get_link(bot, update):
                 "-F", "file=@"+after_download_file_name,
                 "-F", "expires_at=3d",
                 "-F", "no_index=true",
-                "-F", "title=Direct Links are Only for private use.Do not share with others.",
                 url
             ]
             bot.edit_message_text(
