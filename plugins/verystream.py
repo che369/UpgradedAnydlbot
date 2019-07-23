@@ -35,9 +35,9 @@ from helper_funcs.display_progress import progress_for_pyrogram
 from pydrive.drive import GoogleDrive
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["verystream"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["getlink"]))
 def get_link(bot, update):
-    TRChatBase(update.from_user.id, update.text, "verystream")
+    TRChatBase(update.from_user.id, update.text, "getlink")
     if str(update.from_user.id) in Config.BANNED_USERS:
         bot.send_message(
             chat_id=update.chat.id,
@@ -86,8 +86,8 @@ def get_link(bot, update):
             max_days = 0
         else:
             max_days = 5
-            verystreamLOGIN = '1789e745b8561c5548b0'
-            verystreamKEY = 'JcGF53rcBri'
+            verystreamLOGIN = '55a5ab9ab6d0f54e7218'
+            verystreamKEY = 'BijUaQFXqur'
             
             # check video extension
             if not after_download_file_name.lower().endswith(('.mp4', '.mkv', '.avi', '.webm', '.vob', '.mpg')):
