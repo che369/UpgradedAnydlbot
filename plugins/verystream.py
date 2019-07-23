@@ -85,7 +85,7 @@ def get_link(bot, update):
             adfulurl = file_inance.webContentLink
             max_days = 0
         else:
-            max_days = 5
+            max_days = 3
             verystreamLOGIN = '55a5ab9ab6d0f54e7218'
             verystreamKEY = 'BijUaQFXqur'
             
