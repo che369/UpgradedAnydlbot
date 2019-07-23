@@ -19,7 +19,7 @@ This bot is free & always will be !
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@GetPublicLinkBot URL detected. Please do not abuse the service!"
-    DOWNLOAD_START = "📤 Your request is in the queue. Do not send another request. Please be patient..."
+    DOWNLOAD_START = "📤 Your request is in the queue. Do not send another request. Please be patient...\n \nKindly use /highspeedlink command for faster download.Use Vpn,if the download link doesnt works !"
     UPLOAD_START = "Started to upload.."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nUrl uploading is not supported."
