@@ -45,7 +45,7 @@ Expires on: {}"""
 👉 Do Not Send Multiple Files At Same Time,When You Get The Direct Link Then Send Another File If You Want. \n
 👉 If You Did'nt Get The Direct Link After 1 Hour,Send /getlink Command To The File Again. \n
 👉 Subscribe Our Channel For  Bot Updates @filestolink \n
-👉 Direct Links Are Only For Personal Use.Do Not Share With Others ! \n Click the below link to know how to use this bot \n\nhttps://www.youtube.com/embed/a0BbypulAjU?vq=hd1440"""
+👉 Direct Links Are Only For Personal Use.Do Not Share With Others ! \n\n <b> Click the below link to know how to use this bot </b> \n\n<i>https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440</i>"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link\n\n[Click here to know how to use this bot](https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail"
