@@ -32,9 +32,9 @@ from helper_funcs.display_progress import progress_for_pyrogram
 from pydrive.drive import GoogleDrive
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["aaagetlink"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["getlink"]))
 def get_link(bot, update):
-    TRChatBase(update.from_user.id, update.text, "aaagetlink")
+    TRChatBase(update.from_user.id, update.text, "getlink")
     if str(update.from_user.id) in Config.BANNED_USERS:
         bot.send_message(
             chat_id=update.chat.id,
