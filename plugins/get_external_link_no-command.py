@@ -40,7 +40,7 @@ def get_link(bot, update):
     elif update.reply_to_message is None and update.text is not None and update.text == "/getlink":
         bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.REPLY_TO_DOC_GET_LINK,
+            text=Translation.REPLY_TO_DOC_START,
             reply_to_message_id=update.message_id
         )
         return False
