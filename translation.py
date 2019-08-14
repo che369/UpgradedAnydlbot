@@ -46,7 +46,7 @@ Expires on: {}"""
 👉 If You Did'nt Get The Direct Link After 1 Hour,Send /getlink Command To The File Again. \n
 👉 Subscribe Our Channel For  Bot Updates @filestolink \n
 👉 Direct Links Are Only For Personal Use.Do Not Share With Others ! \n\n<b>Click the below link to know how to use this bot </b> \n\nhttps://www.youtube.com/embed/a0BbypulAjU?vq=hd1440"""
-    REPLY_TO_DOC_START = "👉 Forward any files to this bot,and bot will generate its directlink.\n👉Do not send multiple files at a time.\n👉If you dont get directlink after 1 hour,forward that file again to the bot\n👉Subscribe our channel for bot updates @filestolink\n👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links.\n\n © Source Code : [SpEcHlDe](https://github.com/SpEcHiDe/AnyDLBot) ,"
+    REPLY_TO_DOC_START = "👉 Forward any files to this bot,and bot will generate its directlink.\n👉Do not send multiple files at a time.\n👉If you dont get directlink after 1 hour,forward that file again to the bot\n👉Subscribe our channel for bot updates @filestolink\n👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links.\n\n © Source Code : [SpEcHlDe](https://github.com/SpEcHiDe/AnyDLBot) "
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail"
     AFTER_GET_DL_LINK = "<b>Direct Link generated</b> 👇\n \n{} \n \n<i>Generated link will expire in {} days.</i>."
