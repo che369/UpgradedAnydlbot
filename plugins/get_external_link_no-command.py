@@ -35,9 +35,9 @@ from pydrive.drive import GoogleDrive
 
 @pyrogram.Client.on_message()
 def get_link(bot, update):
-    if update.reply_to_message is not None and update.text is not None and update.text == "/getlink":
+    if update.reply_to_message is not None and update.text is not None and update.text == "/start":
         reply_message = update.reply_to_message
-    elif update.reply_to_message is None and update.text is not None and update.text == "/getlink":
+    elif update.reply_to_message is None and update.text is not None and update.text == "/start":
         bot.send_message(
             chat_id=update.chat.id,
             text=Translation.REPLY_TO_DOC_START,
