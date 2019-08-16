@@ -1,11 +1,10 @@
 class Translation(object):
     START_TEXT = """
-👉 Forward Any Files To This Bot And REPLY TO THAT MEDIA by sending /getlink command to get High Speed Direct Download Link !
-👉 Do Not Send Multiple Files At Same Time,When You Get The Direct Link Then Send Another File If You Want.
-👉 If You Did'nt Get The Direct Link After 1 Hour,Send /getlink Command To The File Again.
-👉 Subscribe Our Channel For  Bot Updates @filestolink
-👉 Direct Links Are Only For Personal Use.Do Not Share With Others !
-👉 [Click here to know how to use this bot](https://www.youtube.com/embed/a0BbypulAjU?vq=hd1440)
+👉 Forward any files to this bot,and bot will generate its directlink.
+👉Do not send multiple files at a time.
+👉If you dont get directlink after 1 hour,forward that file again to the bot
+👉Subscribe our channel for bot updates @filestolink
+👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links.
 
 © Source Code : [SpEcHlDe](https://github.com/SpEcHiDe/AnyDLBot)
 """
@@ -41,11 +40,7 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.me/SpEcHlDe/599'>{}</a>
 Expires on: {}"""
-    HELP_USER = """👉 Forward Any Files To This Bot And REPLY TO THAT MEDIA by sending /getlink command to get High Speed Direct Download Link ! \n
-👉 Do Not Send Multiple Files At Same Time,When You Get The Direct Link Then Send Another File If You Want. \n
-👉 If You Did'nt Get The Direct Link After 1 Hour,Send /getlink Command To The File Again. \n
-👉 Subscribe Our Channel For  Bot Updates @filestolink \n
-👉 Direct Links Are Only For Personal Use.Do Not Share With Others ! \n\n<b>Click the below link to know how to use this bot </b> \n\nhttps://www.youtube.com/embed/a0BbypulAjU?vq=hd1440"""
+    HELP_USER = """👉 Forward any files to this bot,and bot will generate its directlink.\n👉Do not send multiple files at a time.\n👉If you dont get directlink after 1 hour,forward that file again to the bot\n👉Subscribe our channel for bot updates @filestolink\n👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links.\n\n © Source Code : [SpEcHlDe](https://github.com/SpEcHiDe/AnyDLBot)"""
     REPLY_TO_DOC_GET_LINK = "👉 Forward any files to this bot,and bot will generate its directlink.\n👉Do not send multiple files at a time.\n👉If you dont get directlink after 1 hour,forward that file again to the bot\n👉Subscribe our channel for bot updates @filestolink\n👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links.\n\n © Source Code : [SpEcHlDe](https://github.com/SpEcHiDe/AnyDLBot) "
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail"
