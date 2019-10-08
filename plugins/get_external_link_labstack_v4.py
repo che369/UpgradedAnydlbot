@@ -107,7 +107,7 @@ def get_link(bot, update):
     r2json = json.loads(r2.text)
 
     url = "https://up.labstack.com/api/v1/links/{}/send".format(r2json['code'])
-    max_days = 7
+    max_days = 3
     command_to_exec = [
         "curl",
         "-F", "files=@" + after_download_file_name,
