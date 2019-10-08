@@ -102,7 +102,7 @@ def get_link(bot, update):
     filesize = os.path.getsize(after_download_file_name)
     filename = os.path.basename(after_download_file_name)
     headers2 = {'Up-User-ID': 'IZfFbjUcgoo3Ao3m'}
-    files2 = {"ttl":604800,"files":[{"name": filename, "type": "", "size": filesize}]}
+    files2 = {"ttl":259200,"files":[{"name": filename, "type": "", "size": filesize}]}
     r2 = requests.post("https://up.labstack.com/api/v1/links", json=files2, headers=headers2)
     r2json = json.loads(r2.text)
 
