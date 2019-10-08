@@ -25,7 +25,7 @@ from translation import Translation
 def progress_for_pyrogram(client, current, total, ud_type, message_id, chat_id, start):
     now = time.time()
     diff = now - start
-    if round(diff % 50.00) == 0 or current == total:
+    if round(diff % 60.00) == 0 or current == total:
         # if round(current / total * 100, 0) % 5 == 0:
         percentage = current * 100 / total
         speed = current / diff
