@@ -36,33 +36,16 @@ from pydrive.drive import GoogleDrive
 
 @pyrogram.Client.on_message()
 def get_link(bot, update):
-    # print(update)
-    if update.text == "/start":
-        bot.send_message(
-            chat_id=update.chat.id,
-            text=Translation.START_TEXT,
-            reply_to_message_id=update.message_id
-        )
-        return False
-    elif update.text == "/help" or update.text == "/about":
-        bot.send_message(
-            chat_id=update.chat.id,
-            text=Translation.HELP_USER,
-            parse_mode="html",
-            disable_web_page_preview=True,
-            reply_to_message_id=update.message_id
-        )
-        return False
-    elif update.reply_to_message is not None and update.text == "/getlink":
+    if update.reply_to_message is not None and update.text is not None and update.text == "/start":
         reply_message = update.reply_to_message
-    elif update.reply_to_message is None and update.text == "/getlink":
+    elif update.reply_to_message is None and update.text is not None and update.text == "/start":
         bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.REPLY_TO_DOC_GET_LINK,
+            text=Translation.REPLY_TO_DOC_START,
             reply_to_message_id=update.message_id
         )
         return False
-    elif update.document is not None or update.video is not None or update.photo is not None or update.audio is not None or update.animation is not None or update.voice is not None or update.sticker is not None or update.video_note is not None:
+    elif update.document is not None:
         reply_message = update
     else:
         return False
@@ -74,7 +57,7 @@ def get_link(bot, update):
             text=Translation.ABUSIVE_USERS,
             reply_to_message_id=update.message_id,
             disable_web_page_preview=True,
-            parse_mode="html"
+            parse_mode=pyrogram.ParseMode.HTML
         )
         return
     logger.info(update.from_user)
