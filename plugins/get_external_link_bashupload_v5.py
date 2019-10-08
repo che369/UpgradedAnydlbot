@@ -104,7 +104,7 @@ def get_link(bot, update):
     filename = os.path.basename(after_download_file_name)
     
     url = "https://bashupload.com/" + filename
-    max_days = 7
+    max_days = 2
     command_to_exec = [
         "curl",
         "-X", "POST",
