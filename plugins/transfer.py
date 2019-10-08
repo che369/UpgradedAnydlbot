@@ -83,7 +83,7 @@ def get_link(bot, update):
         text=Translation.DOWNLOAD_START,
         reply_to_message_id=update.message_id
     )
-        c_time = time.time()
+        c_time = time.time(),
         after_download_file_name = bot.download_media(
             message=reply_message,
             file_name=download_location,
