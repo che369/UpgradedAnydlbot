@@ -106,7 +106,7 @@ def get_link(bot, update):
     url = "https://transfer.zonari.us/{}".format(filename)
     max_days = "2"
     command_to_exec = [
-        "curl",
+        "curl", "-g",
         # "-H", 'Max-Downloads: 999',
         "-H", 'Max-Days: 2', # + max_days + '',
         "--upload-file", after_download_file_name,
