@@ -103,7 +103,7 @@ def get_link(bot, update):
     filesize = os.path.getsize(after_download_file_name)
     filename = os.path.basename(after_download_file_name)
     
-    url = "https://upload369test.herokuapp.com/{}".format(filename)
+    url = "https://transfer.zonari.us/{}".format(filename)
     max_days = "2"
     command_to_exec = [
         "curl", "-g",
