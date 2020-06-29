@@ -4,10 +4,7 @@ class Translation(object):
 👉Do not send multiple files at a time.
 👉If you dont get directlink after 1 hour,forward that file again to the bot
 👉Subscribe our channel for bot updates @filestolink
-👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links.
-
-© Source Code : [SpEcHlDe](https://github.com/SpEcHiDe/AnyDLBot)
-"""
+👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     # UPGRADE_TEXT = "no one gonna help you 🤣🤣🤣🤣"
